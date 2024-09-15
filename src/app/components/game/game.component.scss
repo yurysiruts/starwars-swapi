@@ -1,0 +1,37 @@
+.game {
+  text-align: center;
+}
+
+.container {
+  height: 250px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.card {
+  width: 240px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+p {
+  margin: 0;
+}
