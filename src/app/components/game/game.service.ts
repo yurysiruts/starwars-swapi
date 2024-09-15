@@ -20,8 +20,8 @@ export class GameService {
 
   swapiService = inject(SwapiService);
 
-  private previousPerson: any = null;
-  private previousStarship: any = null;
+  previousPerson: any = null;
+  previousStarship: any = null;
 
   playGame(): void {
     this.errorMessage.set(null);

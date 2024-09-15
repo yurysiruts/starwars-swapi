@@ -81,6 +81,12 @@
           "options": {
             "buildTarget": "code:build"
           }
+        },
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {
+            "jestConfig": "jest.config.js"
+          }
         }
       }
     }
