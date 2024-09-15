@@ -4,7 +4,8 @@
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
-      "jest"
+      "jest",
+      "cypress"
     ]
   },
   "files": [
@@ -12,6 +13,8 @@
   ],
   "include": [
     "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "src/**/*.d.ts",
+    "src/**/*.cy.ts",
+    "**/*.cy.ts"
   ]
 }
